@@ -1,16 +1,17 @@
-package com.ucm.thesis.service;
+package com.ucm.library.service;
 
-import com.ucm.thesis.dto.TutorialRequest;
-import com.ucm.thesis.dto.TutorialUpdateRequest;
-import com.ucm.thesis.entity.AuthorDaoModel;
-import com.ucm.thesis.entity.TutorialDaoModel;
-import com.ucm.thesis.model.Tutorial;
-import com.ucm.thesis.repository.AuthorRepository;
-import com.ucm.thesis.repository.TutorialRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.ucm.library.dto.TutorialRequest;
+import com.ucm.library.dto.TutorialUpdateRequest;
+import com.ucm.library.entity.AuthorDaoModel;
+import com.ucm.library.entity.TutorialDaoModel;
+import com.ucm.library.model.Tutorial;
+import com.ucm.library.repository.AuthorRepository;
+import com.ucm.library.repository.TutorialRepository;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,13 +1,14 @@
-package com.ucm.thesis.controller;
+package com.ucm.library.controller;
 
-import com.ucm.thesis.dto.TutorialRequest;
-import com.ucm.thesis.dto.TutorialUpdateRequest;
-import com.ucm.thesis.model.Tutorial;
-import com.ucm.thesis.service.TutorialService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.ucm.library.dto.TutorialRequest;
+import com.ucm.library.dto.TutorialUpdateRequest;
+import com.ucm.library.model.Tutorial;
+import com.ucm.library.service.TutorialService;
 
 import java.util.List;
 

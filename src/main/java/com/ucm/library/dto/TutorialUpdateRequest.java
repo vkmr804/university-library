@@ -1,4 +1,4 @@
-package com.ucm.thesis.dto;
+package com.ucm.library.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

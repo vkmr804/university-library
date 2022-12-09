@@ -1,4 +1,4 @@
-package com.ucm.thesis.model;
+package com.ucm.library.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

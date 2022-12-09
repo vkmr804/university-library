@@ -1,13 +1,14 @@
-package com.ucm.thesis.service;
+package com.ucm.library.service;
 
-import com.ucm.thesis.dto.AuthorRequest;
-import com.ucm.thesis.entity.AuthorDaoModel;
-import com.ucm.thesis.model.Author;
-import com.ucm.thesis.repository.AuthorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.ucm.library.dto.AuthorRequest;
+import com.ucm.library.entity.AuthorDaoModel;
+import com.ucm.library.model.Author;
+import com.ucm.library.repository.AuthorRepository;
 
 import java.util.List;
 import java.util.Optional;

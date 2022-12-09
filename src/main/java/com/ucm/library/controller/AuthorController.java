@@ -1,12 +1,13 @@
-package com.ucm.thesis.controller;
+package com.ucm.library.controller;
 
-import com.ucm.thesis.dto.AuthorRequest;
-import com.ucm.thesis.model.Author;
-import com.ucm.thesis.service.AuthorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.ucm.library.dto.AuthorRequest;
+import com.ucm.library.model.Author;
+import com.ucm.library.service.AuthorService;
 
 import java.util.List;
 

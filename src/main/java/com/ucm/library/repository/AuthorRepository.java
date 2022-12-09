@@ -1,7 +1,8 @@
-package com.ucm.thesis.repository;
+package com.ucm.library.repository;
 
-import com.ucm.thesis.entity.AuthorDaoModel;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.ucm.library.entity.AuthorDaoModel;
 
 public interface AuthorRepository extends JpaRepository<AuthorDaoModel, Long> {
 }

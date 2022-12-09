@@ -1,4 +1,4 @@
-package com.ucm.thesis.controller;
+package com.ucm.library.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
