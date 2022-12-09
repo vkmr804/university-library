@@ -1,7 +1,7 @@
-INSERT INTO AUTHOR (id, name) VALUES (1, 'Author 1');
-INSERT INTO AUTHOR (id, name) VALUES (2, 'Author 2');
-INSERT INTO AUTHOR (id, name) VALUES (3, 'Author 3');
-INSERT INTO AUTHOR (id, name) VALUES (4, 'Author 4');
+INSERT INTO AUTHOR (id, name) VALUES (1, 'Prof. Sam');
+INSERT INTO AUTHOR (id, name) VALUES (2, 'Prof. Javeria');
+INSERT INTO AUTHOR (id, name) VALUES (3, 'Prof. Kesh');
+INSERT INTO AUTHOR (id, name) VALUES (4, 'Prof. Ma');
 
 INSERT INTO TUTORIAL (id, title, description, author_id, published) VALUES (1, 'UCM', 'Advanced Applications', 1, true);
 INSERT INTO TUTORIAL (id, title, description, author_id, published) VALUES (2, 'Title 2', 'Test title for the Tutorial', 1, true);
